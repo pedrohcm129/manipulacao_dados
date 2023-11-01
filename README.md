@@ -12,32 +12,20 @@ Ponteiro consiste em uma variável que é especializada em guardar endereços de
 #include <math.h>
 
 int main() {
-        // Criando a string de teste
         char string[20] = "1Pedroasfdsd34eEr45";
-
-        // Criando o Ponteiro
-        // Atribuindo o endereç  da string de teste para o ponteiro criado
-        // Como string guarda o endereço do primeiro caractere da string não é necessário o operado re�o de memória
         char *pont = string;
 
-        // Inciando a manipulação dos dados
-        // Enquanto tiver um valor em *pont
         printf("%s\n", string);
         while(*pont) {
-                // Verifica se o valor de *pont é um alphanumérice se é minúsculo
                 if (isalpha(*pont) == 2) {
                         *pont = toupper(*pont);
-
                 } else if (isdigit(*pont)) {
-			// Usando os valores da tabela ascii para determinar o valor em inteiro de *pont
                         int valor = *pont - '0';
 			int raiz_quadrada_inteira = sqrt(valor);
 			*pont = raiz_quadrada_inteira + '0';
                 }
-
                 pont++;
         }
-
         printf("%s", string);
         return 0;
 }
