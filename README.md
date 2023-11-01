@@ -18,7 +18,7 @@ int main() {
         printf("%s\n", string);
         while(*pont) {
                 if (isalpha(*pont) == 2) {
-                        *pont = toupper(*pont);
+                        *pont = *pont - 32;
                 } else if (isdigit(*pont)) {
                         int valor = *pont - '0';
 			int raiz_quadrada_inteira = sqrt(valor);
