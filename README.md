@@ -6,7 +6,7 @@ Ponteiro consiste em uma variável que é especializada em guardar endereços de
 
 À luz do contexto apresentado, o objetivo desse trabalho é a construção de um programa em C capaz de manipular strings através de ponteiros. Para exemplificar o algorítmo deve realizar duas mudanças na string, a saber: i) cada um de seus caracteres em ''caixa baixa'', seja substituído por seu equivalente em ''caixa alta''; ii) todos os caracteres numéricos sejam substituídos pela parte inteira da raiz quadrada do mesmo.
 ## Algortimo
-```
+~~~c
 #include <stdio.h>
 #include <ctype.h>
 #include <math.h>
@@ -41,4 +41,4 @@ int main() {
         printf("%s", string);
         return 0;
 }
-```
+~~~
