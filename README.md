@@ -4,7 +4,7 @@ Toda linguagem de programação contém funcionalidade de manipulação de dados
 
 Ponteiro consiste em uma variável que é especializada em guardar endereços de memória. O valor de um ponteiro, ou seja, um endereço de memória, geralmente corresponde a posição de uma outra variável na memória. Essa estrutura é considerada um dos aspectos mais forte e perigoso da linguagem C, pois exite um potencial de quebra do sistema quando mal utilizados, entretanto, quando utilizados de maneira correta, pode aumentar a eficiência de certas rotinas.
 
-À luz do contexto apresentado, o objetivo desse trabalho é a construção de um programa em C capaz de manipular strings através de ponteiros. Para exemplificar o algorítmo deve realizar duas mudanças na string, a saber: i) cada um de seus caracteres em ''caixa baixa'', seja substituído por seu equivalente em ''caixa alta''; ii) todos os caracteres numéricos sejam substituídos pela parte inteira da raiz quadrada do mesmo.
+À luz do contexto apresentado, o objetivo desse trabalho é a construção de um programa em C capaz de manipular strings através de ponteiros. Para exemplificar o algorítmo deve realizar duas mudanças na string, a saber: i) cada um de seus caracteres em "caixa baixa", seja substituído por seu equivalente em "caixa alta"; ii) todos os caracteres numéricos sejam substituídos pela parte inteira da raiz quadrada do mesmo.
 ## Algortimo
 ~~~c
 #include <stdio.h>
@@ -30,3 +30,4 @@ int main() {
         return 0;
 }
 ~~~
+Para mais informações acerca da construção do algorimo, segue o link: [Relatório](https://drive.google.com/file/d/1IFxQWe_ibJwLWgB1gzmOlgYAwREGx0EQ/view?usp=sharing)
