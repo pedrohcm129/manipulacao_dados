@@ -21,9 +21,7 @@ int main() {
                 }
 
                 if (*pont >= 48 && *pont <= 57) {
-                        int valor = *pont - '0';
-                        int raiz_quadrada_inteira = sqrt(valor);
-                        *pont = raiz_quadrada_inteira + '0';
+                        *pont = sqrt(*pont - '0') + '0';
                 }
                 pont++;
         }
